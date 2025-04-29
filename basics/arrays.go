@@ -49,7 +49,7 @@ func arrayTests() {
 	}
 
 	// twoDtwo := make([][]int, 3)
-	var twoDtwo [][]int = make([][]int, 3)
+	var twoDtwo = make([][]int, 3)
 	for i := 0; i < len(twoDtwo); i++ {
 		twoDtwo[i] = make([]int, i+1)
 		for j := 0; j < i+1; j++ {

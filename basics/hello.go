@@ -50,7 +50,7 @@ func hello() {
 	// switch demo
 	switch name {
 	case "Brandon":
-		fmt.Println("Hello %S!!", name)
+		fmt.Printf("Hello %s!!\n", name)
 	case "Sara":
 		fmt.Println("Hey", name)
 	default:

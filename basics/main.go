@@ -1,15 +1,25 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	// hello()
-	// arrayTests()
-	// mapTests()
-	// funcTests()
-	rangeTest()
-	name := "Brandon"
-	for _, char := range name {
-		fmt.Printf("Char: %c\n", char)
-	}
+	hello()
+	fmt.Println(strings.Repeat("*", 35))
+
+	arrayTests()
+	fmt.Println(strings.Repeat("*", 35))
+
+	mapTests()
+	fmt.Println(strings.Repeat("*", 35))
+
+	funcTests()
+	fmt.Println(strings.Repeat("*", 35))
+
+	carsDemo()
+	fmt.Println(strings.Repeat("*", 35))
+
+	pizzaDemo()
 }
